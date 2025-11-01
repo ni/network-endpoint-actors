@@ -1,0 +1,16 @@
+Use this text on the product page.
+Exaclty 800 characters.
+==================================
+Network Endpoints allow you to link actor trees running in separate application instances.  Use them to build systems distributed across mulitple computing platforms.
+
+Network endpoints can support a range of network protocols.  Two are provided with this package:  TCP/IP and Network Streams.  Users can also extend the package to change how messages are serialized and/or encrypt the serialized message.
+
+Two types are included:  Nested Endpoints and Caller Endpoints.
+
+A Nested Endpoint is launched by a calling actor.  Any message it receives from across the network will be passed up to its caller.
+
+A Caller Endpoint sits at the top of an actor tree, and launches a single nested actor that you specify.  Any message it receives from across the network will be passed down to the nested actor.
+====================================
+Short Description
+====================================
+Network Endpoint Actors link actor trees across multiple computing platforms.  Use them to build distributed systems in Actor Framework.
